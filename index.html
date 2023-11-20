@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Ehren Strifling">
+	<meta name="description" content="Ehren-Strifling Website">
+	<meta name="keywords" content="Ehren Strifling">
+	<title>Alarm Clock</title>
+	<link rel="icon" href="./src/img/bx-time.svg" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+	<link rel="stylesheet" href="./src/css/index.css">
+
+	<script src="src/scripts/alarm.js" defer></script>
+</head>
+<body>
+	<header>
+		<h1>Alarm Clock</h1>
+	</header>
+	<main class="center">
+		<div class="alarm">
+			<p class="time">00:00</p>
+			<p class="alarm-time"><i class='bx bx-bell-off'></i><span>00:00</span></p>
+			<form>
+				<input type="text" class="hour" placeholder="HH">
+				<input type="text" class="minute" placeholder="MM">
+				<button class="submit">Set Alarm</button>
+			</form>
+		</div>
+	</main>
+</body>
+</html>
